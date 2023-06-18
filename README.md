@@ -30,6 +30,7 @@ check_and_install <- function(p) {
 }
 
 sapply(pkg, check_and_install)
+```
 
 ## Downloading Datasets
 
@@ -52,6 +53,7 @@ rmarkdown::render("regression_model.Rmd")
 ```
 
 2. **Classification Method**: Run the `classfication_model.Rmd` file to carry out the classification analysis. It includes the code for data preprocessing, creating the classification model, and visualizing the outcome.
+   
 ```r
 rmarkdown::render("classification_model.Rmd")
 ```
